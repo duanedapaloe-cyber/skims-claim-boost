@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 const vouches = [
-  { name: "Alexia", reward: "skims $750" },
-  { name: "Marcus", reward: "skims $750" },
-  { name: "Sophie", reward: "skims $750" },
-  { name: "Daniel", reward: "skims $750" },
-  { name: "Emma", reward: "skims $750" },
-  { name: "James", reward: "skims $750" },
-  { name: "Olivia", reward: "skims $750" },
-  { name: "Michael", reward: "skims $750" },
+  { name: "Alexia", reward: "Skims $750" },
+  { name: "Marcus", reward: "Skims $750" },
+  { name: "Sophie", reward: "Skims $750" },
+  { name: "Daniel", reward: "Skims $750" },
+  { name: "Emma", reward: "Skims $750" },
+  { name: "James", reward: "Skims $750" },
+  { name: "Olivia", reward: "Skims $750" },
+  { name: "Michael", reward: "Skims $750" },
 ];
 
 const VouchNotification = () => {

@@ -1,18 +1,18 @@
 const steps = [
   {
     number: "01",
-    title: "Visit the offer page",
-    description: "Click the button above to access the exclusive offer page",
+    title: "Visit the Offer Page",
+    description: "Click the Button Above to Access the Exclusive Offer Page",
   },
   {
     number: "02",
-    title: "Complete 3-5 deals listed there",
-    description: "Choose and complete the required deals from the available options",
+    title: "Complete 3-5 Deals Listed There",
+    description: "Choose and Complete the Required Deals from the Available Options",
   },
   {
     number: "03",
-    title: "Receive your $750 reward",
-    description: "Once completed, your reward will be processed and delivered",
+    title: "Receive Your $750 Reward",
+    description: "Once Completed, Your Reward Will Be Processed and Delivered",
   },
 ];
 

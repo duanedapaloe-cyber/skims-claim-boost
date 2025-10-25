@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import skimsLogo from "@/assets/skims-logo.png";
 
 const HeroSection = () => {
   const handleCTAClick = () => {
@@ -7,11 +8,16 @@ const HeroSection = () => {
 
   return (
     <section className="w-full max-w-3xl mx-auto px-6 py-20 text-center">
+      <img 
+        src={skimsLogo} 
+        alt="Skims Logo" 
+        className="h-12 md:h-16 mx-auto mb-8 object-contain"
+      />
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-        Get a $750 reward for completing a few quick deals
+        Get a $750 Reward for Completing a Few Quick Deals
       </h1>
       <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-        Simple steps, exclusive opportunity
+        Simple Steps, Exclusive Opportunity
       </p>
       <Button
         size="lg"
