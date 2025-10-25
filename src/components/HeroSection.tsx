@@ -11,7 +11,7 @@ const HeroSection = () => {
       <img 
         src={skimsLogo} 
         alt="Skims Logo" 
-        className="h-12 md:h-16 mx-auto mb-8 object-contain"
+        className="w-full max-w-md md:max-w-lg lg:max-w-xl mx-auto mb-12 object-contain"
       />
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
         Get a $750 Reward for Completing a Few Quick Deals
